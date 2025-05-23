@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+   
+}
+
+body{
+    background-color: hsl(0, 0%, 9%);
+    display:grid;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    color: white;
+    
+    
+}
+
+
+.box{
+    background-color: rgb(34, 34, 34);
+    padding: 30px; 
+    border-radius: 10px;
+    
+}
+
+.box img{
+    width: 100px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+.local{
+    color: rgb(170, 235, 42);
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+a{
+    margin:15px ;
+    background-color:rgb(49, 49, 49) ;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    padding-left: 120px;
+    padding-right: 120px;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 16px;
+
+    
+}
+
+
+.desc{
+    font-size: 15px;
+}
+
+.github {
+    margin-top: 25px;
+}
+
+
+a:hover{
+    transition: all 1s ease;
+    background-color:rgb(170, 235, 42) ;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+   
+    
+}
